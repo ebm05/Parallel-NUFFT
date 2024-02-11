@@ -1,4 +1,4 @@
-# Parallel Non-uniform FFT
+# Parallel non-uniform FFT
 
 <img align="center" src="doc/parallel_speedup.png" width="350">
 
