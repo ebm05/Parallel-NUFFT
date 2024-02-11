@@ -4,7 +4,7 @@
 
 This is a parallel implementation of the non-uniform fast Fourier transform (NUFFT) by Greengard & Lee (2004) using OpenMP.
 
-The main focus of this project has been to accelerate the gridding/spreading step in the NUFFT using shared memory parallelization, drawing inspiration from the Flatiron Institute NUFFT (FINUFFT) [code](https://github.com/flatironinstitute/finufft/tree/master). Additionally, basic performance testing the serial version and the fast Gaussian gridding (as presented in Greengard & Lee) have been performed as well. The code for all tests can be found in the `test` folder.
+The main focus of this project has been to accelerate the gridding/spreading step in the NUFFT using shared memory parallelization, drawing inspiration from the Flatiron Institute NUFFT (FINUFFT) [code](https://github.com/flatironinstitute/finufft/tree/master). Additionally, basic performance testing of the serial version and fast Gaussian gridding (as presented in Greengard & Lee) has been performed as well. The code for all tests can be found in the `test` folder.
 
 The purpose of this project has not been to implement something better than what is already available, but rather to offer simpler code for testing and educational purposes. For practical applications, it is recommended to consider the FINUFFT code project instead.
 
